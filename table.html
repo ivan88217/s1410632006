@@ -7,83 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        html,
-        body,
-        table {
+        table{
+            text-align: center;
             width: 100%;
-            margin: 0px;
-            padding: 0px;
         }
-
-        td {
-            height: 20%;
+        .zh{
+            width: 3%;
         }
-
-        div>div {
-            display: inline-block;
-            border: 1px solid black;
-            width: calc(50% - 4.5px);
+        .wk{
+            width: 5%;
         }
-
-        .name {
-            width: 50%;
-            background-color: lightblue
+        .yo{
+            width: 35%;
         }
-
-        .content {
-            width: 40%;
-            background-color: rgb(102, 215, 223)
+        .car{
+            width: 10%;
         }
     </style>
+    <link rel="stylesheet" href="jquery.mobile.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile.min.js"></script>
 </head>
 
 <body>
-    <table border="1">
-        <tr>
-            <td>
-                a
-            </td>
-            <td>
-                b
-            </td>
-        </tr>
-        <tr>
-            <td>
-                a
-            </td>
-            <td>
-                b
-            </td>
-        </tr>
-        <tr>
-            <td>
-                a
-            </td>
-            <td>
-                b
-            </td>
-        </tr>
-        <tr>
-            <td>
-                a
-            </td>
-            <td>
-                b
-            </td>
+    <table border="1" cellspacing="0.1">
+        <tr style="background-color:rgb(155, 150, 150)">
+            <td class="zh">日</td>
+            <td class="wk">星期</td>
+            <td class="yo">幼生</td>
+            <td class="yo">安親班</td>
+            <td class="car">交通車(接)</td>
+            <td class="car">交通車(送)</td>
         </tr>
     </table>
-    <div>
-        <div>a</div>
-        <div>a</div>
-    </div>
-    <div>
-        <div>a</div>
-        <div>a</div>
-    </div>
-    <div>
-        <div>a</div>
-        <div>a</div>
-    </div>
 </body>
 
 </html>
