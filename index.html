@@ -65,8 +65,8 @@
                     document.getElementById("aaa").selectedIndex = 0;
                 }
             }
-            $(".ui-select span span span")[0].innerHTML = $("#aa").val();
-            $(".ui-select span span span")[1].innerHTML = $("#aaa").val();
+            document.getElementById('aa-button').innerHTML = '<span>'+$("#aa").val()+'</span>';
+            document.getElementById('aaa-button').innerHTML = '<span>'+$("#aaa").val()+'</span>';
             ifr.src = "table.html?"
                 + $("#aa").val().replace("年", "") + "-"
                 + $("#aaa").val().replace("月", "")
